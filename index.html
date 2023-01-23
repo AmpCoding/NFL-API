@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>NFL APIs</title>
+</head>
+<body>
+    <h1>NFL PLAYER STATS</h1>
+    <form>
+        <p>
+            <input type="text" placeholder="Search by player name" id="the-input">
+            <button class="button">Search</button>
+            <audio id="audio" src="./Assets/realistic-american-football-stadium/Fox NFL Intro.mp3"></audio>
+        </p>
+    </form>
+
+    <div class="card">
+        <div>
+            <p id="error"></p>
+        </div>
+        <div class="main-image">
+            <img class="image-container">
+        </div>
+        <p id="name"></p>
+        <p id="status"></p>
+        <p id="team"></p>
+        <p id="position"></p>
+        <p id="number"></p>
+        <p id="born-location"></p>
+        <p id="dob"></p>
+        <p id="height"></p>
+        <p id="weight"></p>
+    </div>
+    <script src="./Scripts/script.js"></script>
+</body>
+</html>
