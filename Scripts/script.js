@@ -1,7 +1,7 @@
 console.log("NFL is here!");
 
 let player = "tom brady";
-let theURL = `https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=${player}`;
+let theURL = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${player}`;
 const theName = document.querySelector("#name");
 const theStatus = document.querySelector("#status");
 const theTeam = document.querySelector("#team");
@@ -92,7 +92,7 @@ searchButton.addEventListener("click", function(event){
     else{
         player = theInput.value;
         theInput.value = "";
-        theURL = `https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=${player}`;
+        theURL = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${player}`;
         GetData();
     }
 })
